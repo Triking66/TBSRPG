@@ -98,5 +98,9 @@ public class Space_Script : MonoBehaviour {
         {
             my_render.material = selectable;
         }
+        else
+        {
+            my_render.material = neutral;
+        }
     }
 }
